@@ -1,0 +1,22 @@
+.main-content {
+  height: 100%;
+  position: relative;
+}
+
+mat-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  img {
+    object-fit: cover; /*this makes the image in src fit to the size specified below*/
+    width: 25rem;
+    height: 25rem;
+    margin: 2rem 2rem;
+  }
+}
+
+mat-card-actions {
+  justify-content: space-between;
+}
