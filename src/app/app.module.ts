@@ -10,13 +10,15 @@ import {MatCardModule} from '@angular/material/card';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MainComponent } from './main/main.component';
 import { ColorListComponent } from './color-list/color-list.component';
+import { ColorItemComponent } from './color-item/color-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     MainComponent,
-    ColorListComponent
+    ColorListComponent,
+    ColorItemComponent
   ],
   imports: [
     BrowserModule,

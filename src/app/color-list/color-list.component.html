@@ -1,1 +1,7 @@
-<p>color-list works!</p>
+<div class="container mt-5">
+  <h2>Click on any of the colors to generate a random gradient using that color</h2>
+  <div class="row">
+    <app-color-item *ngFor="let color of colors" [color]="color" class="col-md-4 mt-4"></app-color-item>
+  </div>
+</div>
+

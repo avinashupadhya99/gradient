@@ -1,0 +1,8 @@
+mat-card {
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    top: -.625rem;
+  }
+}
